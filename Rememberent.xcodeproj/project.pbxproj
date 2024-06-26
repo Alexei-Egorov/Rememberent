@@ -7,18 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A221AF492C1A176B0044593F /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221AF482C1A176B0044593F /* ActivityView.swift */; };
+		A221AF4B2C1A178E0044593F /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A221AF4A2C1A178E0044593F /* ActivityViewModel.swift */; };
+		A244E0FA2C18A56F00BA6E1F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A244E0F92C18A56F00BA6E1F /* Colors.xcassets */; };
+		A244E0FC2C18A85600BA6E1F /* DateRingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244E0FB2C18A85600BA6E1F /* DateRingViewModel.swift */; };
+		A244E0FE2C18ADB300BA6E1F /* WorkingDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244E0FD2C18ADB300BA6E1F /* WorkingDayView.swift */; };
+		A244E1002C18ADCC00BA6E1F /* WorkingDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244E0FF2C18ADCC00BA6E1F /* WorkingDayViewModel.swift */; };
+		A244E1022C18B8B600BA6E1F /* Calendar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A244E1012C18B8B600BA6E1F /* Calendar+Ext.swift */; };
+		A253A3C82C1F51FC00595A26 /* WorkingDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253A3C72C1F51FC00595A26 /* WorkingDay.swift */; };
+		A253A3CA2C1F538700595A26 /* InMemoryRoutineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A253A3C92C1F538700595A26 /* InMemoryRoutineRepository.swift */; };
+		A2751B5E2C1CBD5A00B7DCBC /* Routine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2751B5D2C1CBD5A00B7DCBC /* Routine.swift */; };
+		A2751B612C1CBF8A00B7DCBC /* RoutineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2751B602C1CBF8A00B7DCBC /* RoutineRepository.swift */; };
+		A2751B632C1CC04200B7DCBC /* SwiftDataRoutineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2751B622C1CC04200B7DCBC /* SwiftDataRoutineRepository.swift */; };
+		A29289812C220CFC00D33631 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29289802C220CFC00D33631 /* PreviewData.swift */; };
 		A2CE46A22C17148A00CB97A8 /* RememberentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46A12C17148A00CB97A8 /* RememberentApp.swift */; };
-		A2CE46A42C17148A00CB97A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46A32C17148A00CB97A8 /* ContentView.swift */; };
 		A2CE46A62C17148D00CB97A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CE46A52C17148D00CB97A8 /* Assets.xcassets */; };
 		A2CE46A92C17148D00CB97A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CE46A82C17148D00CB97A8 /* Preview Assets.xcassets */; };
+		A2CE46B42C171ED200CB97A8 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2CE46B32C171ED200CB97A8 /* SF-Pro-Text-Bold.otf */; };
+		A2CE46B62C171F0900CB97A8 /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2CE46B52C171F0900CB97A8 /* SF-Pro-Text-Medium.otf */; };
+		A2CE46B82C171F1800CB97A8 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2CE46B72C171F1800CB97A8 /* SF-Pro-Text-Regular.otf */; };
+		A2CE46BC2C17209000CB97A8 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46BB2C17209000CB97A8 /* Font+Ext.swift */; };
+		A2CE46BE2C17215500CB97A8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46BD2C17215500CB97A8 /* HomeView.swift */; };
+		A2CE46C12C1721AE00CB97A8 /* DateRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46C02C1721AE00CB97A8 /* DateRingView.swift */; };
+		A2CE46C42C1721DF00CB97A8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46C32C1721DF00CB97A8 /* HomeViewModel.swift */; };
+		A2CE46C72C17221000CB97A8 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46C62C17221000CB97A8 /* Activity.swift */; };
+		A2CE46C92C17475100CB97A8 /* ActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46C82C17475100CB97A8 /* ActivityRepository.swift */; };
+		A2CE46CB2C17507600CB97A8 /* InMemoryActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46CA2C17507600CB97A8 /* InMemoryActivityRepository.swift */; };
+		A2CE46CF2C17514F00CB97A8 /* SwiftDataActivityRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46CE2C17514F00CB97A8 /* SwiftDataActivityRepository.swift */; };
+		A2CE46D12C17528400CB97A8 /* RememberentAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CE46D02C17528400CB97A8 /* RememberentAppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A221AF482C1A176B0044593F /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		A221AF4A2C1A178E0044593F /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		A244E0F92C18A56F00BA6E1F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		A244E0FB2C18A85600BA6E1F /* DateRingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRingViewModel.swift; sourceTree = "<group>"; };
+		A244E0FD2C18ADB300BA6E1F /* WorkingDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingDayView.swift; sourceTree = "<group>"; };
+		A244E0FF2C18ADCC00BA6E1F /* WorkingDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingDayViewModel.swift; sourceTree = "<group>"; };
+		A244E1012C18B8B600BA6E1F /* Calendar+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Ext.swift"; sourceTree = "<group>"; };
+		A253A3C72C1F51FC00595A26 /* WorkingDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkingDay.swift; sourceTree = "<group>"; };
+		A253A3C92C1F538700595A26 /* InMemoryRoutineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryRoutineRepository.swift; sourceTree = "<group>"; };
+		A2751B5D2C1CBD5A00B7DCBC /* Routine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routine.swift; sourceTree = "<group>"; };
+		A2751B602C1CBF8A00B7DCBC /* RoutineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutineRepository.swift; sourceTree = "<group>"; };
+		A2751B622C1CC04200B7DCBC /* SwiftDataRoutineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataRoutineRepository.swift; sourceTree = "<group>"; };
+		A29289802C220CFC00D33631 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		A2CE469E2C17148A00CB97A8 /* Rememberent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rememberent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CE46A12C17148A00CB97A8 /* RememberentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberentApp.swift; sourceTree = "<group>"; };
-		A2CE46A32C17148A00CB97A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2CE46A52C17148D00CB97A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2CE46A82C17148D00CB97A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2CE46B32C171ED200CB97A8 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
+		A2CE46B52C171F0900CB97A8 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		A2CE46B72C171F1800CB97A8 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		A2CE46B92C171FF800CB97A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CE46BB2C17209000CB97A8 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
+		A2CE46BD2C17215500CB97A8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A2CE46C02C1721AE00CB97A8 /* DateRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRingView.swift; sourceTree = "<group>"; };
+		A2CE46C32C1721DF00CB97A8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		A2CE46C62C17221000CB97A8 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		A2CE46C82C17475100CB97A8 /* ActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRepository.swift; sourceTree = "<group>"; };
+		A2CE46CA2C17507600CB97A8 /* InMemoryActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InMemoryActivityRepository.swift; sourceTree = "<group>"; };
+		A2CE46CE2C17514F00CB97A8 /* SwiftDataActivityRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataActivityRepository.swift; sourceTree = "<group>"; };
+		A2CE46D02C17528400CB97A8 /* RememberentAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberentAppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2751B5F2C1CBF7000B7DCBC /* RoutineRepository */ = {
+			isa = PBXGroup;
+			children = (
+				A2751B602C1CBF8A00B7DCBC /* RoutineRepository.swift */,
+				A253A3C92C1F538700595A26 /* InMemoryRoutineRepository.swift */,
+				A2751B622C1CC04200B7DCBC /* SwiftDataRoutineRepository.swift */,
+			);
+			path = RoutineRepository;
+			sourceTree = "<group>";
+		};
+		A292897F2C220CE400D33631 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A29289802C220CFC00D33631 /* PreviewData.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		A2CE46952C17148A00CB97A8 = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +118,13 @@
 		A2CE46A02C17148A00CB97A8 /* Rememberent */ = {
 			isa = PBXGroup;
 			children = (
-				A2CE46A12C17148A00CB97A8 /* RememberentApp.swift */,
-				A2CE46A32C17148A00CB97A8 /* ContentView.swift */,
-				A2CE46A52C17148D00CB97A8 /* Assets.xcassets */,
+				A2CE46AF2C171DEC00CB97A8 /* App */,
+				A2CE46C52C1721EA00CB97A8 /* Models */,
+				A2CE46CC2C1750FB00CB97A8 /* Repositories */,
+				A2CE46B02C171DF500CB97A8 /* Views */,
+				A2CE46BA2C17207C00CB97A8 /* Extensions */,
+				A292897F2C220CE400D33631 /* Helpers */,
+				A2CE46B12C171E1E00CB97A8 /* Resources */,
 				A2CE46A72C17148D00CB97A8 /* Preview Content */,
 			);
 			path = Rememberent;
@@ -65,6 +136,105 @@
 				A2CE46A82C17148D00CB97A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2CE46AF2C171DEC00CB97A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46B92C171FF800CB97A8 /* Info.plist */,
+				A2CE46A12C17148A00CB97A8 /* RememberentApp.swift */,
+				A2CE46D02C17528400CB97A8 /* RememberentAppViewModel.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A2CE46B02C171DF500CB97A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46BF2C17217200CB97A8 /* HomeScene */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2CE46B12C171E1E00CB97A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46B22C171E2900CB97A8 /* Fonts */,
+				A2CE46A52C17148D00CB97A8 /* Assets.xcassets */,
+				A244E0F92C18A56F00BA6E1F /* Colors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2CE46B22C171E2900CB97A8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46B32C171ED200CB97A8 /* SF-Pro-Text-Bold.otf */,
+				A2CE46B52C171F0900CB97A8 /* SF-Pro-Text-Medium.otf */,
+				A2CE46B72C171F1800CB97A8 /* SF-Pro-Text-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A2CE46BA2C17207C00CB97A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46BB2C17209000CB97A8 /* Font+Ext.swift */,
+				A244E1012C18B8B600BA6E1F /* Calendar+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A2CE46BF2C17217200CB97A8 /* HomeScene */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46BD2C17215500CB97A8 /* HomeView.swift */,
+				A2CE46C02C1721AE00CB97A8 /* DateRingView.swift */,
+				A244E0FD2C18ADB300BA6E1F /* WorkingDayView.swift */,
+				A221AF482C1A176B0044593F /* ActivityView.swift */,
+				A2CE46C22C1721CC00CB97A8 /* View Models */,
+			);
+			path = HomeScene;
+			sourceTree = "<group>";
+		};
+		A2CE46C22C1721CC00CB97A8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46C32C1721DF00CB97A8 /* HomeViewModel.swift */,
+				A244E0FB2C18A85600BA6E1F /* DateRingViewModel.swift */,
+				A244E0FF2C18ADCC00BA6E1F /* WorkingDayViewModel.swift */,
+				A221AF4A2C1A178E0044593F /* ActivityViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		A2CE46C52C1721EA00CB97A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2751B5D2C1CBD5A00B7DCBC /* Routine.swift */,
+				A2CE46C62C17221000CB97A8 /* Activity.swift */,
+				A253A3C72C1F51FC00595A26 /* WorkingDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A2CE46CC2C1750FB00CB97A8 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46CD2C17511400CB97A8 /* ActivityRepository */,
+				A2751B5F2C1CBF7000B7DCBC /* RoutineRepository */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A2CE46CD2C17511400CB97A8 /* ActivityRepository */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE46C82C17475100CB97A8 /* ActivityRepository.swift */,
+				A2CE46CA2C17507600CB97A8 /* InMemoryActivityRepository.swift */,
+				A2CE46CE2C17514F00CB97A8 /* SwiftDataActivityRepository.swift */,
+			);
+			path = ActivityRepository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +295,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2CE46B62C171F0900CB97A8 /* SF-Pro-Text-Medium.otf in Resources */,
+				A2CE46B82C171F1800CB97A8 /* SF-Pro-Text-Regular.otf in Resources */,
 				A2CE46A92C17148D00CB97A8 /* Preview Assets.xcassets in Resources */,
+				A244E0FA2C18A56F00BA6E1F /* Colors.xcassets in Resources */,
 				A2CE46A62C17148D00CB97A8 /* Assets.xcassets in Resources */,
+				A2CE46B42C171ED200CB97A8 /* SF-Pro-Text-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +311,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2CE46A42C17148A00CB97A8 /* ContentView.swift in Sources */,
+				A2751B612C1CBF8A00B7DCBC /* RoutineRepository.swift in Sources */,
+				A253A3C82C1F51FC00595A26 /* WorkingDay.swift in Sources */,
+				A2CE46C92C17475100CB97A8 /* ActivityRepository.swift in Sources */,
+				A244E1022C18B8B600BA6E1F /* Calendar+Ext.swift in Sources */,
+				A2751B5E2C1CBD5A00B7DCBC /* Routine.swift in Sources */,
+				A244E1002C18ADCC00BA6E1F /* WorkingDayViewModel.swift in Sources */,
+				A2CE46C12C1721AE00CB97A8 /* DateRingView.swift in Sources */,
+				A2CE46CF2C17514F00CB97A8 /* SwiftDataActivityRepository.swift in Sources */,
+				A221AF492C1A176B0044593F /* ActivityView.swift in Sources */,
+				A221AF4B2C1A178E0044593F /* ActivityViewModel.swift in Sources */,
+				A2CE46C42C1721DF00CB97A8 /* HomeViewModel.swift in Sources */,
+				A2751B632C1CC04200B7DCBC /* SwiftDataRoutineRepository.swift in Sources */,
+				A253A3CA2C1F538700595A26 /* InMemoryRoutineRepository.swift in Sources */,
+				A244E0FC2C18A85600BA6E1F /* DateRingViewModel.swift in Sources */,
+				A29289812C220CFC00D33631 /* PreviewData.swift in Sources */,
+				A2CE46C72C17221000CB97A8 /* Activity.swift in Sources */,
+				A2CE46BE2C17215500CB97A8 /* HomeView.swift in Sources */,
 				A2CE46A22C17148A00CB97A8 /* RememberentApp.swift in Sources */,
+				A2CE46D12C17528400CB97A8 /* RememberentAppViewModel.swift in Sources */,
+				A2CE46CB2C17507600CB97A8 /* InMemoryActivityRepository.swift in Sources */,
+				A2CE46BC2C17209000CB97A8 /* Font+Ext.swift in Sources */,
+				A244E0FE2C18ADB300BA6E1F /* WorkingDayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +469,12 @@
 				DEVELOPMENT_TEAM = F75Y2M3DZF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rememberent/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +482,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AE.Rememberent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,11 +501,12 @@
 				DEVELOPMENT_TEAM = F75Y2M3DZF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rememberent/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +514,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AE.Rememberent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
